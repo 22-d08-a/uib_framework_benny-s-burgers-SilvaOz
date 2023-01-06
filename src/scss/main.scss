@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap");
-@mixin fonts {
-    font-family: "Love Ya Like A Sister", cursive;
-}
+
 @mixin background($color) {
     background-color: ($color);
 }
@@ -76,12 +74,12 @@ button.btn{
 div h2 {
     margin: 100px 0 50px 0;
     font-size: 4rem;
-    @include fonts;
+    font-family: "Love Ya Like A Sister", cursive;
     color: #4b4c45;
 }
 // Columns Subtitle
 div h3 {
-    @include fonts;
+    font-family: "Love Ya Like A Sister", cursive;
     color: #4b4c45;
     font-size: 2rem;
     text-align: center;
